@@ -1,0 +1,8 @@
+1) https://github.com/DeepakR-Sastry/cmput404lab4
+2) It shows us the "Installed successfull" default webpage.
+3) Navigating to "/" gives you a 404 error but naviagting to /polls shows us the hello world message.
+4) Migrations are just a way of managing changes to the database schema.  
+5) Django admin allows us to CRUD objects in our database using a web-interface. Editing models.py defines our database models and admin.py registers our models with the admin.
+6) We can view a particular question in detail using /poll/38/ and its results and the votes respectively using /polls/38/results and /polls/38/vote. We can handle arbitrary values in our urls.py by converting alphanumeric values to integers depending on our needs. 
+7) It makes it harder to maintain (changing URLs is harder) Djangos allows us to give URLs a name and resolve them later instead of hardcoding them from the beginning.
+8) Django's generic views take in patterns found in development and abstract them so we don't need to rewrite too much code. If we need to display extra information that the generic view doesn't, then we may subclass it and provide our own implementation by overriding methods.
